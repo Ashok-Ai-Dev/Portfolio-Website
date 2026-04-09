@@ -4,7 +4,7 @@ function toNumber(x, fallback = 0) {
 }
 
 export async function fetchGithubRepos({
-  username,
+  username = "Ashok-Ai-Dev", // ✅ yaha tumhara username set kar diya
   perPage = 12,
   token,
   signal,
@@ -30,19 +30,19 @@ export async function fetchGithubRepos({
   }
 
   const data = await res.json()
+
   return (Array.isArray(data) ? data : [])
     .filter((r) => !r.fork)
     .map((r) => ({
       id: r.id,
       name: r.name,
       fullName: r.full_name,
-      description: r.description,
+      description: r.description || "No description available",
       url: r.html_url,
       homepage: r.homepage,
-      language: r.language,
+      language: r.language || "Not specified",
       stars: toNumber(r.stargazers_count),
       forks: toNumber(r.forks_count),
       updatedAt: r.updated_at,
     }))
 }
-
