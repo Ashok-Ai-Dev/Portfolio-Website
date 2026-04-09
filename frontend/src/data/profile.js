@@ -49,7 +49,7 @@ export const profile = {
       {
         title: 'Software Development Intern',
         org: 'YugaYatra Retail',
-        date: '2025',
+        date: '2026',
         details: [
           'Full‑stack development with Firebase; improved internal workflows.',
           'Explored AI tools for productivity, QA, and content automation.',
