@@ -10,7 +10,7 @@ export const profile = {
   tagline:
     'I build fast, responsive web apps with clean UI, reliable backend APIs, and a focus on real-world impact.',
   socials: {
-    linkedin: 'https://www.linkedin.com/in/your-linkedin',
+    linkedin: 'https://https://www.linkedin.com/in/ashok-kumar-185297263/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BR%2F6%2B0iS3TIa7MyxL7jMegQ%3D%3D',
     github: 'https://github.com/your-github',
     leetcode: 'https://leetcode.com/your-handle',
     gfg: 'https://www.geeksforgeeks.org/user/your-handle',
