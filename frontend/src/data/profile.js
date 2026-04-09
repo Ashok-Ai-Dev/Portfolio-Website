@@ -14,10 +14,10 @@ export const profile = {
     github: 'https://github.com/Ashok-Ai-Dev',
     leetcode: 'https://leetcode.com/your-handle',
     gfg: 'https://www.geeksforgeeks.org/user/your-handle',
-    email: 'mailto:ashokkumar@example.com',
+    email: 'mailto:ashokkumar885318@gmail.com',
   },
   github: {
-    username: 'your-github',
+    username: 'Ashok-Ai-Dev',
   },
   about: {
     summary:
