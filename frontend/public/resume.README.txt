@@ -1,0 +1,6 @@
+Put your resume PDF here as:
+
+  public/resume.pdf
+
+The navbar + hero buttons link to `/resume.pdf`.
+
