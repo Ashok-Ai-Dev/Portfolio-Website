@@ -215,8 +215,7 @@ export function Contact() {
                 EmailJS setup
               </div>
               <div className="mt-2 text-sm text-slate-600 dark:text-slate-300">
-                Add `VITE_EMAILJS_SERVICE_ID`, `VITE_EMAILJS_TEMPLATE_ID`, and
-                `VITE_EMAILJS_PUBLIC_KEY` in `frontend/.env`.
+                
               </div>
             </div>
           </div>
